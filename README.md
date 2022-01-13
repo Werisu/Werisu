@@ -17,9 +17,34 @@ Também tenho conhecimento em linguagens JavaScript, HTML e CSS.
 
 No meu tempo livre gosto de:
 
-:muscle: ir na academia malhar<br/>
+🏋️ ir na academia malhar<br/>
 :saxophone: tocar saxofone<br/>
-:radio: ouvir notícias.
+:radio: ouvir notícias
+
+> translating to english
+
+### Hello, welcome to my GitHub 👋
+
+I am a .NET developer with knowledge in:
+
+* Entity Framework Core
+* SQL
+* swagger
+* AutoMapper
+* Dependency Injection
+* Object Oriented Programming
+* Repository pattern
+* Logs with Serilog
+* Cloud publishing with Azure App Service
+* Linux
+
+I also have knowledge in JavaScript, HTML and CSS languages.
+
+In my free time I like to:
+
+🏋️ go to the gym to work out<br/>
+:saxophone: play saxophone<br/>
+:radio: listen to news
 
 <!--
 **Werisu/Werisu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
