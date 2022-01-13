@@ -17,9 +17,9 @@ Também tenho conhecimento em linguagens JavaScript, HTML e CSS.
 
 No meu tempo livre gosto de:
 
-:muscle: ir na academia malhar
-:saxophone: tocar saxofone
-:radio: ouvir notícias.
+> :muscle: ir na academia malhar
+> :saxophone: tocar saxofone
+> :radio: ouvir notícias.
 
 <!--
 **Werisu/Werisu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
