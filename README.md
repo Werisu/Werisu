@@ -1,4 +1,4 @@
-### Olá, bem-vindo ao meu GitHub 👋
+<!-- ### Olá, bem-vindo ao meu GitHub 👋
 
 Sou um desenvolvedor .NET com conhecimentos em:
 
@@ -21,7 +21,7 @@ No meu tempo livre gosto de:
 :saxophone: tocar saxofone<br/>
 :radio: ouvir notícias
 
-> translating to english
+> translating to english -->
 
 ### Hello, welcome to my GitHub 👋
 
