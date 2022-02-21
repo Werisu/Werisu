@@ -27,11 +27,11 @@ No meu tempo livre gosto de:
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=LucasLima939&show_icons=true&theme=tokyonight)
 
-I develop mobile applications in 📱 **Flutter** and backend projects in **C#**. Currently, I work as front-end developer at **[@ergon](https://ergonsistemas.com.br/)** and I'm a content creator for Instagram **[@opa_enjuru](https://www.instagram.com/opa_enjuru/)**.
+I am a **.NET** developer. Currently, I work as front-end developer at **[@ergon](https://ergonsistemas.com.br/)** and I'm a content creator for Instagram **[@opa_enjuru](https://www.instagram.com/opa_enjuru/)**.
 
 Feel free to contact me via **<a href="mailto:wellysson35@gmail.com">email</a>** or **[linkedin](https://www.linkedin.com/in/wellyssonrocha/)**.
 
-I am a .NET developer with knowledge in:
+knowledge in:
 
 * Entity Framework Core
 * SQL
@@ -45,12 +45,6 @@ I am a .NET developer with knowledge in:
 * Linux
 
 I also have knowledge in JavaScript, HTML and CSS languages.
-
-In my free time I like to:
-
-🏋️ go to the gym to work out<br/>
-:saxophone: play saxophone<br/>
-:radio: listen to news
 
 <!--
 **Werisu/Werisu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
