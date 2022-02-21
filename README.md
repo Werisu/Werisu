@@ -25,7 +25,7 @@ No meu tempo livre gosto de:
 
 <h2>Hi there! I'm Wellysson Rocha 👋</h2>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=LucasLima939&show_icons=true&theme=tokyonight)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Werisu&show_icons=true&theme=tokyonight)
 
 I am a **.NET** developer. Currently, I work as Front-End developer at **[@ergon](https://ergonsistemas.com.br/)** and I'm a content creator for Instagram **[@opa_enjuru](https://www.instagram.com/opa_enjuru/)**.
 
