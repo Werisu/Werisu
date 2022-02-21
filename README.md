@@ -23,9 +23,7 @@ No meu tempo livre gosto de:
 
 > translating to english -->
 
-### Hello, welcome to my GitHub 👋
-
-<h2>Hi there! I'm Lucas Lima 👋</h2>
+<h2>Hi there! I'm Wellysson Rocha 👋</h2>
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=LucasLima939&show_icons=true&theme=tokyonight)
 
