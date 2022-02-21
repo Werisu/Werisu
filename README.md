@@ -27,7 +27,7 @@ No meu tempo livre gosto de:
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=LucasLima939&show_icons=true&theme=tokyonight)
 
-I am a **.NET** developer. Currently, I work as front-end developer at **[@ergon](https://ergonsistemas.com.br/)** and I'm a content creator for Instagram **[@opa_enjuru](https://www.instagram.com/opa_enjuru/)**.
+I am a **.NET** developer. Currently, I work as Front-End developer at **[@ergon](https://ergonsistemas.com.br/)** and I'm a content creator for Instagram **[@opa_enjuru](https://www.instagram.com/opa_enjuru/)**.
 
 Feel free to contact me via **<a href="mailto:wellysson35@gmail.com">email</a>** or **[linkedin](https://www.linkedin.com/in/wellyssonrocha/)**.
 
@@ -43,8 +43,6 @@ knowledge in:
 * Logs with Serilog
 * Cloud publishing with Azure App Service
 * Linux
-
-I also have knowledge in JavaScript, HTML and CSS languages.
 
 <!--
 **Werisu/Werisu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
