@@ -25,6 +25,14 @@ No meu tempo livre gosto de:
 
 ### Hello, welcome to my GitHub 👋
 
+<h2>Hi there! I'm Lucas Lima 👋</h2>
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=LucasLima939&show_icons=true&theme=tokyonight)
+
+I develop mobile applications in 📱 **Flutter** and backend projects in **C#**. Currently, I work as front-end developer at **[@ergon](https://ergonsistemas.com.br/)** and I'm a content creator for Instagram **[@opa_enjuru](https://www.instagram.com/opa_enjuru/)**.
+
+Feel free to contact me via **<a href="mailto:wellysson35@gmail.com">email</a>** or **[linkedin](https://www.linkedin.com/in/wellyssonrocha/)**.
+
 I am a .NET developer with knowledge in:
 
 * Entity Framework Core
