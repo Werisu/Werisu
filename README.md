@@ -27,7 +27,7 @@ No meu tempo livre gosto de:
 
 <div>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Werisu&layout=compact&langs_count=7&theme=dracula"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Werisu&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Werisu&show_icons=true&theme=dracula&include_all_commits=true"/>
 </div>
 
 I am a **.NET** developer. Currently, I work as Front-End developer at **[@ergon](https://ergonsistemas.com.br/)** and I'm a content creator for Instagram **[@opa_enjuru](https://www.instagram.com/opa_enjuru/)**.
