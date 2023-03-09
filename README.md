@@ -56,8 +56,8 @@ Feel free to contact me via **<a href="mailto:wellysson35@gmail.com">email</a>**
   <a href="https://www.linkedin.com/in/wellyssonrocha-front-end/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   
 </div>
-
-knowledge in:
+<br/>
+knowledge in .NET:
 
 * Entity Framework Core
 * SQL
