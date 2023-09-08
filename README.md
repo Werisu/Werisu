@@ -57,18 +57,18 @@ Feel free to contact me via **<a href="mailto:wellysson35@gmail.com">email</a>**
   
 </div>
 <br/>
-knowledge in .NET:
+Human Skills:
 
-* Entity Framework Core
-* SQL
-* swagger
-* AutoMapper
-* Dependency Injection
-* Object Oriented Programming
-* Repository pattern
-* Logs with Serilog
-* Cloud publishing with Azure App Service
-* Linux
+* Comunicação Eficiente
+* Resolução de Conflitos
+* Pensamento Crítico
+* Autogestão
+* Aprendizado Contínuo
+* Adaptabilidade
+* Liderança
+* Proatividade
+* Resiliência
+* Mentalidade de Crescimento (Growth Mindset)
 
 <!--
 **Werisu/Werisu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
