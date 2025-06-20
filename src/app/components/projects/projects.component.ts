@@ -99,17 +99,17 @@ interface Project {
         <div class="featured-project">
           <div class="featured-content">
             <div class="featured-text">
-              <h3 class="featured-title">E-commerce Moderno</h3>
+              <h3 class="featured-title">Dashboard Angular</h3>
               <p class="featured-description">
-                Uma plataforma de e-commerce completa desenvolvida com Angular e
-                Node.js. Inclui sistema de pagamentos, gestão de produtos,
-                carrinho de compras e painel administrativo.
+                Um dashboard administrativo completo desenvolvido com Angular e
+                Angular Material. Inclui gráficos interativos, gestão de
+                usuários, relatórios em tempo real e interface responsiva.
               </p>
               <div class="featured-tech">
                 <span class="tech-tag">Angular</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">MongoDB</span>
-                <span class="tech-tag">Stripe</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Angular Material</span>
+                <span class="tech-tag">SCSS</span>
               </div>
               <div class="featured-links">
                 <a href="#" class="btn btn-primary">
@@ -124,7 +124,7 @@ interface Project {
             </div>
             <div class="featured-visual">
               <div class="featured-image">
-                <div class="image-placeholder large">🛒</div>
+                <div class="image-placeholder large">📊</div>
               </div>
             </div>
           </div>
@@ -480,50 +480,39 @@ export class ProjectsComponent {
   projects: Project[] = [
     {
       id: 1,
-      title: 'E-commerce Moderno',
+      title: 'Dashboard Angular',
       description:
-        'Plataforma completa de e-commerce com sistema de pagamentos e gestão de produtos.',
-      image: '🛒',
-      technologies: ['Angular', 'Node.js', 'MongoDB', 'Stripe'],
-      category: 'Full Stack',
+        'Dashboard administrativo completo desenvolvido com Angular e Angular Material.',
+      image: '📊',
+      technologies: ['Angular', 'TypeScript', 'Angular Material', 'SCSS'],
+      category: 'Frontend',
       link: '#',
       github: '#',
     },
     {
       id: 2,
-      title: 'Dashboard Analytics',
+      title: 'E-commerce Angular',
       description:
-        'Dashboard interativo para análise de dados com gráficos e métricas em tempo real.',
-      image: '📊',
-      technologies: ['React', 'TypeScript', 'Chart.js', 'Firebase'],
+        'Plataforma de e-commerce com carrinho de compras e gestão de produtos.',
+      image: '🛒',
+      technologies: ['Angular', 'TypeScript', 'RxJS', 'SCSS'],
       category: 'Frontend',
       link: '#',
       github: '#',
     },
     {
       id: 3,
-      title: 'API REST',
+      title: 'App de Tarefas',
       description:
-        'API RESTful robusta para gerenciamento de usuários e autenticação.',
-      image: '🔌',
-      technologies: ['Node.js', 'Express', 'PostgreSQL', 'JWT'],
-      category: 'Backend',
+        'Aplicação de gerenciamento de tarefas com drag & drop e filtros.',
+      image: '✅',
+      technologies: ['Angular', 'TypeScript', 'LocalStorage', 'SCSS'],
+      category: 'Frontend',
       link: '#',
       github: '#',
     },
     {
       id: 4,
-      title: 'App de Tarefas',
-      description:
-        'Aplicativo móvel para gerenciamento de tarefas com sincronização em nuvem.',
-      image: '📱',
-      technologies: ['React Native', 'Firebase', 'Redux', 'AsyncStorage'],
-      category: 'Mobile',
-      link: '#',
-      github: '#',
-    },
-    {
-      id: 5,
       title: 'Portfolio Interativo',
       description:
         'Portfolio pessoal com animações e design moderno usando Angular.',
@@ -534,13 +523,23 @@ export class ProjectsComponent {
       github: '#',
     },
     {
-      id: 6,
+      id: 5,
       title: 'Sistema de Chat',
-      description:
-        'Sistema de chat em tempo real com WebSockets e interface moderna.',
+      description: 'Interface de chat em tempo real com WebSockets e Angular.',
       image: '💬',
-      technologies: ['Angular', 'Socket.io', 'Node.js', 'MongoDB'],
-      category: 'Full Stack',
+      technologies: ['Angular', 'Socket.io', 'TypeScript', 'SCSS'],
+      category: 'Frontend',
+      link: '#',
+      github: '#',
+    },
+    {
+      id: 6,
+      title: 'Formulários Dinâmicos',
+      description:
+        'Sistema de formulários dinâmicos com validação e Angular Reactive Forms.',
+      image: '📝',
+      technologies: ['Angular', 'Reactive Forms', 'TypeScript', 'SCSS'],
+      category: 'Frontend',
       link: '#',
       github: '#',
     },

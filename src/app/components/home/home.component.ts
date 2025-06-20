@@ -15,10 +15,11 @@ import { RouterModule } from '@angular/router';
             <h1 class="hero-title">
               <span class="title-line">Olá, eu sou</span>
               <span class="title-highlight">Desenvolvedor</span>
-              <span class="title-line">Full Stack</span>
+              <span class="title-line">Front-end Angular</span>
             </h1>
             <p class="hero-subtitle">
-              Transformando ideias em experiências digitais incríveis
+              Especialista em criar interfaces modernas e experiências digitais
+              incríveis com Angular
             </p>
             <div class="hero-buttons">
               <a routerLink="/projects" class="btn btn-primary">
@@ -36,8 +37,8 @@ import { RouterModule } from '@angular/router';
             <div class="floating-card">
               <div class="card-content">
                 <div class="avatar">👨‍💻</div>
-                <h3>Desenvolvedor</h3>
-                <p>Angular • React • Node.js</p>
+                <h3>Front-end Developer</h3>
+                <p>Angular • TypeScript • SCSS</p>
               </div>
             </div>
             <div class="floating-elements">

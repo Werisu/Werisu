@@ -31,17 +31,17 @@ import { Component } from '@angular/core';
           <div class="bio-text">
             <h2>Minha História</h2>
             <p>
-              Sou um desenvolvedor Full Stack apaixonado por criar soluções
-              inovadoras que fazem a diferença na vida das pessoas. Com mais de
-              3 anos de experiência, tenho trabalhado em diversos projetos
-              desafiadores que me permitiram desenvolver habilidades técnicas e
-              soft skills essenciais.
+              Sou um desenvolvedor Front-end especializado em Angular,
+              apaixonado por criar interfaces modernas e experiências de usuário
+              excepcionais. Com foco em desenvolvimento front-end, tenho
+              trabalhado em diversos projetos que me permitiram desenvolver
+              habilidades sólidas em Angular, TypeScript e design de interfaces.
             </p>
             <p>
               Minha jornada na programação começou com a curiosidade de entender
-              como as coisas funcionam na internet. Hoje, transformo essa
-              curiosidade em aplicações web modernas, responsivas e
-              performáticas.
+              como criar interfaces bonitas e funcionais. Hoje, transformo essa
+              paixão em aplicações web modernas, responsivas e performáticas
+              usando Angular.
             </p>
             <div class="bio-stats">
               <div class="bio-stat">
@@ -69,16 +69,16 @@ import { Component } from '@angular/core';
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="timeline-date">2023 - Presente</div>
-              <h3>Desenvolvedor Full Stack Senior</h3>
+              <h3>Desenvolvedor Front-end Angular Senior</h3>
               <p>
                 Desenvolvimento de aplicações web complexas usando Angular,
-                React e Node.js. Liderança de equipes e mentoria de
-                desenvolvedores júnior.
+                TypeScript e SCSS. Foco em performance, acessibilidade e
+                experiência do usuário.
               </p>
               <div class="timeline-tech">
                 <span class="tech-tag">Angular</span>
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">SCSS</span>
               </div>
             </div>
           </div>
@@ -87,10 +87,11 @@ import { Component } from '@angular/core';
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="timeline-date">2021 - 2023</div>
-              <h3>Desenvolvedor Frontend</h3>
+              <h3>Desenvolvedor Front-end</h3>
               <p>
                 Desenvolvimento de interfaces de usuário modernas e responsivas.
-                Foco em experiência do usuário e performance.
+                Especialização em Angular e boas práticas de desenvolvimento
+                front-end.
               </p>
               <div class="timeline-tech">
                 <span class="tech-tag">Angular</span>
@@ -106,12 +107,13 @@ import { Component } from '@angular/core';
               <div class="timeline-date">2020 - 2021</div>
               <h3>Desenvolvedor Júnior</h3>
               <p>
-                Primeiros passos na carreira de desenvolvimento. Aprendizado de
-                fundamentos e boas práticas de programação.
+                Primeiros passos na carreira de desenvolvimento front-end.
+                Aprendizado de fundamentos de Angular, TypeScript e boas
+                práticas de programação.
               </p>
               <div class="timeline-tech">
-                <span class="tech-tag">JavaScript</span>
-                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">Angular</span>
+                <span class="tech-tag">TypeScript</span>
                 <span class="tech-tag">CSS</span>
               </div>
             </div>

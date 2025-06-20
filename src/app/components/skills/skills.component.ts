@@ -414,28 +414,36 @@ export class SkillsComponent implements OnInit {
 
   skills: Skill[] = [
     { name: 'Angular', level: 95, icon: '🅰️', category: 'Frontend' },
-    { name: 'React', level: 90, icon: '⚛️', category: 'Frontend' },
     { name: 'TypeScript', level: 92, icon: '📘', category: 'Frontend' },
-    { name: 'Node.js', level: 88, icon: '🟢', category: 'Backend' },
-    { name: 'Python', level: 85, icon: '🐍', category: 'Backend' },
-    { name: 'MongoDB', level: 80, icon: '🍃', category: 'Backend' },
-    { name: 'PostgreSQL', level: 75, icon: '🐘', category: 'Backend' },
-    { name: 'React Native', level: 70, icon: '📱', category: 'Mobile' },
+    { name: 'SCSS/SASS', level: 90, icon: '🎨', category: 'Frontend' },
+    { name: 'HTML5', level: 88, icon: '🌐', category: 'Frontend' },
+    { name: 'CSS3', level: 85, icon: '💅', category: 'Frontend' },
+    { name: 'JavaScript', level: 80, icon: '⚡', category: 'Frontend' },
+    { name: 'RxJS', level: 75, icon: '🔄', category: 'Frontend' },
+    { name: 'Angular Material', level: 70, icon: '🧩', category: 'Frontend' },
   ];
 
   tools = [
     { name: 'Git', icon: '📚', description: 'Controle de versão' },
-    { name: 'Docker', icon: '🐳', description: 'Containerização' },
-    { name: 'AWS', icon: '☁️', description: 'Cloud computing' },
-    { name: 'Firebase', icon: '🔥', description: 'Backend as a Service' },
-    { name: 'Figma', icon: '🎨', description: 'Design de interfaces' },
     { name: 'VS Code', icon: '💻', description: 'Editor de código' },
+    {
+      name: 'Angular CLI',
+      icon: '🛠️',
+      description: 'Ferramenta de linha de comando',
+    },
+    {
+      name: 'Chrome DevTools',
+      icon: '🔍',
+      description: 'Debugging e performance',
+    },
+    { name: 'Figma', icon: '🎨', description: 'Design de interfaces' },
+    { name: 'Postman', icon: '📮', description: 'Teste de APIs' },
   ];
 
   learningList = [
-    { name: 'Rust', icon: '🦀', progress: 30 },
-    { name: 'Kubernetes', icon: '☸️', progress: 45 },
-    { name: 'GraphQL', icon: '🔷', progress: 60 },
+    { name: 'Angular 17+', icon: '🅰️', progress: 85 },
+    { name: 'Tailwind CSS', icon: '🎨', progress: 60 },
+    { name: 'Storybook', icon: '📚', progress: 45 },
   ];
 
   ngOnInit() {

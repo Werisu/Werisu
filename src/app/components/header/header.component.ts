@@ -36,6 +36,17 @@ import { RouterModule } from '@angular/router';
           </a>
         </nav>
 
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/wellyssonrocha-front-end/"
+            target="_blank"
+            class="social-link"
+            title="LinkedIn"
+          >
+            <span class="social-icon">💼</span>
+          </a>
+        </div>
+
         <button class="theme-toggle" (click)="toggleTheme()">
           <span class="theme-icon">{{ isDarkTheme ? '☀️' : '🌙' }}</span>
         </button>

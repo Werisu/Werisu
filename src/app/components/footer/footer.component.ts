@@ -22,7 +22,12 @@ import { Component } from '@angular/core';
               <a href="#" class="social-link" title="GitHub">
                 <span class="social-icon">🐙</span>
               </a>
-              <a href="#" class="social-link" title="LinkedIn">
+              <a
+                href="https://www.linkedin.com/in/wellyssonrocha-front-end/"
+                target="_blank"
+                class="social-link"
+                title="LinkedIn"
+              >
                 <span class="social-icon">💼</span>
               </a>
               <a href="#" class="social-link" title="Twitter">

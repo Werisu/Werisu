@@ -8,15 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent],
-  template: `
-    <div class="app-container" [class.dark-theme]="isDarkTheme">
-      <app-header (themeToggle)="toggleTheme()"></app-header>
-      <main class="main-content">
-        <router-outlet></router-outlet>
-      </main>
-      <app-footer></app-footer>
-    </div>
-  `,
+  templateUrl: './app.html',
   styles: [
     `
       .app-container {

@@ -65,7 +65,12 @@ import { FormsModule } from '@angular/forms';
                   <span class="social-icon">🐙</span>
                   <span class="social-name">GitHub</span>
                 </a>
-                <a href="#" class="social-link" title="LinkedIn">
+                <a
+                  href="https://www.linkedin.com/in/wellyssonrocha-front-end/"
+                  target="_blank"
+                  class="social-link"
+                  title="LinkedIn"
+                >
                   <span class="social-icon">💼</span>
                   <span class="social-name">LinkedIn</span>
                 </a>
@@ -522,6 +527,8 @@ export class ContactComponent {
       isOpen: false,
     },
   ];
+
+  categories = ['Todos', 'Frontend', 'Angular', 'TypeScript', 'SCSS'];
 
   onSubmit() {
     if (this.isSubmitting) return;
