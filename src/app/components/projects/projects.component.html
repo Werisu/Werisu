@@ -1,0 +1,116 @@
+<div class="projects-container">
+  <!-- Projects Hero -->
+  <section class="projects-hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Meus Projetos</h1>
+      <p class="hero-subtitle">
+        Uma coleção dos meus trabalhos mais recentes e desafiadores
+      </p>
+    </div>
+  </section>
+
+  <!-- Filter Section -->
+  <section class="filter-section">
+    <div class="filter-container">
+      <button
+        *ngFor="let category of categories"
+        class="filter-btn"
+        [class.active]="selectedCategory === category"
+        (click)="filterProjects(category)"
+      >
+        {{ category }}
+      </button>
+    </div>
+  </section>
+
+  <!-- Projects Grid -->
+  <section class="projects-grid-section">
+    <div class="projects-grid">
+      <div
+        *ngFor="let project of filteredProjects"
+        class="project-card"
+        (mouseenter)="project.isHovered = true"
+        (mouseleave)="project.isHovered = false"
+      >
+        <div class="project-image">
+          <div class="image-placeholder">{{ project.image }}</div>
+          <div class="project-overlay" [class.active]="project.isHovered">
+            <div class="overlay-content">
+              <a [href]="project.link" target="_blank" class="project-link">
+                <span class="link-icon">🔗</span>
+                Ver Projeto
+              </a>
+              <a [href]="project.github" target="_blank" class="project-link">
+                <span class="link-icon">🐙</span>
+                Código
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <h3 class="project-title">{{ project.title }}</h3>
+          <p class="project-description">{{ project.description }}</p>
+
+          <div class="project-tech">
+            <span *ngFor="let tech of project.technologies" class="tech-tag">
+              {{ tech }}
+            </span>
+          </div>
+
+          <div class="project-category">
+            <span class="category-badge">{{ project.category }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Project -->
+  <section class="featured-section">
+    <h2 class="section-title">Projeto em Destaque</h2>
+    <div class="featured-project">
+      <div class="featured-content">
+        <div class="featured-text">
+          <h3 class="featured-title">Clinic Management Pro</h3>
+          <p class="featured-description">
+            Sistema completo de gestão clínica desenvolvido com Angular e
+            TypeScript. Inclui agendamento de consultas, prontuários
+            eletrônicos, controle financeiro, gestão de pacientes e relatórios
+            detalhados. Interface moderna e responsiva com foco na experiência
+            do usuário e eficiência operacional.
+          </p>
+          <div class="featured-tech">
+            <span class="tech-tag">Angular</span>
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">Healthcare</span>
+            <span class="tech-tag">Management</span>
+          </div>
+          <div class="featured-links">
+            <a
+              href="https://github.com/Werisu/clinic-management-pro"
+              target="_blank"
+              class="btn btn-primary"
+            >
+              <span class="btn-icon">🚀</span>
+              Ver Projeto
+            </a>
+            <a
+              href="https://github.com/Werisu/clinic-management-pro"
+              target="_blank"
+              class="btn btn-secondary"
+            >
+              <span class="btn-icon">🐙</span>
+              Ver Código
+            </a>
+          </div>
+        </div>
+        <div class="featured-visual">
+          <div class="featured-image">
+            <div class="image-placeholder large">🏥</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

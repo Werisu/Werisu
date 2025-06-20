@@ -1,0 +1,75 @@
+<div class="skills-container">
+  <!-- Skills Hero -->
+  <section class="skills-hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Minhas Habilidades</h1>
+      <p class="hero-subtitle">
+        Tecnologias e ferramentas que domino para criar soluções incríveis
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Categories -->
+  <section class="skills-categories">
+    <div class="categories-grid">
+      <div class="category-card" *ngFor="let category of categories">
+        <div class="category-icon">{{ category.icon }}</div>
+        <h3 class="category-title">{{ category.name }}</h3>
+        <p class="category-description">{{ category.description }}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Progress -->
+  <section class="skills-progress">
+    <h2 class="section-title">Nível de Proficiência</h2>
+    <div class="skills-grid">
+      <div class="skill-item" *ngFor="let skill of skills">
+        <div class="skill-header">
+          <span class="skill-icon">{{ skill.icon }}</span>
+          <span class="skill-name">{{ skill.name }}</span>
+          <span class="skill-level">{{ skill.level }}%</span>
+        </div>
+        <div class="progress-bar">
+          <div
+            class="progress-fill"
+            [style.width.%]="skill.level"
+            [@progressAnimation]="skill.level"
+          ></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tools Section -->
+  <section class="tools-section">
+    <h2 class="section-title">Ferramentas e Tecnologias</h2>
+    <div class="tools-grid">
+      <div class="tool-card" *ngFor="let tool of tools">
+        <div class="tool-icon">{{ tool.icon }}</div>
+        <h3 class="tool-name">{{ tool.name }}</h3>
+        <p class="tool-description">{{ tool.description }}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning Section -->
+  <section class="learning-section">
+    <h2 class="section-title">Aprendendo Atualmente</h2>
+    <div class="learning-grid">
+      <div class="learning-card" *ngFor="let learning of learningList">
+        <div class="learning-icon">{{ learning.icon }}</div>
+        <h3 class="learning-name">{{ learning.name }}</h3>
+        <div class="learning-progress">
+          <div class="progress-bar small">
+            <div
+              class="progress-fill"
+              [style.width.%]="learning.progress"
+            ></div>
+          </div>
+          <span class="progress-text">{{ learning.progress }}%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,97 @@
+<header class="header">
+  <div class="header-container">
+    <div class="logo">
+      <h1 class="logo-text">Portfolio</h1>
+    </div>
+
+    <nav class="nav-menu">
+      <a routerLink="/home" routerLinkActive="active" class="nav-link">
+        <span class="nav-icon">🏠</span>
+        <span class="nav-text">Home</span>
+      </a>
+      <a routerLink="/about" routerLinkActive="active" class="nav-link">
+        <span class="nav-icon">👤</span>
+        <span class="nav-text">Sobre</span>
+      </a>
+      <a routerLink="/projects" routerLinkActive="active" class="nav-link">
+        <span class="nav-icon">💼</span>
+        <span class="nav-text">Projetos</span>
+      </a>
+      <a routerLink="/skills" routerLinkActive="active" class="nav-link">
+        <span class="nav-icon">⚡</span>
+        <span class="nav-text">Habilidades</span>
+      </a>
+      <a routerLink="/contact" routerLinkActive="active" class="nav-link">
+        <span class="nav-icon">📧</span>
+        <span class="nav-text">Contato</span>
+      </a>
+    </nav>
+
+    <div class="social-links">
+      <a
+        href="https://www.linkedin.com/in/wellyssonrocha-front-end/"
+        target="_blank"
+        class="social-link"
+        title="LinkedIn"
+      >
+        <span class="social-icon">💼</span>
+      </a>
+    </div>
+
+    <button class="theme-toggle" (click)="toggleTheme()">
+      <span class="theme-icon">{{ isDarkTheme ? '☀️' : '🌙' }}</span>
+    </button>
+
+    <button class="mobile-menu-toggle" (click)="toggleMobileMenu()">
+      <span class="hamburger"></span>
+    </button>
+  </div>
+
+  <div class="mobile-menu" [class.active]="isMobileMenuOpen">
+    <a
+      routerLink="/home"
+      routerLinkActive="active"
+      class="mobile-nav-link"
+      (click)="closeMobileMenu()"
+    >
+      <span class="nav-icon">🏠</span>
+      <span class="nav-text">Home</span>
+    </a>
+    <a
+      routerLink="/about"
+      routerLinkActive="active"
+      class="mobile-nav-link"
+      (click)="closeMobileMenu()"
+    >
+      <span class="nav-icon">👤</span>
+      <span class="nav-text">Sobre</span>
+    </a>
+    <a
+      routerLink="/projects"
+      routerLinkActive="active"
+      class="mobile-nav-link"
+      (click)="closeMobileMenu()"
+    >
+      <span class="nav-icon">💼</span>
+      <span class="nav-text">Projetos</span>
+    </a>
+    <a
+      routerLink="/skills"
+      routerLinkActive="active"
+      class="mobile-nav-link"
+      (click)="closeMobileMenu()"
+    >
+      <span class="nav-icon">⚡</span>
+      <span class="nav-text">Habilidades</span>
+    </a>
+    <a
+      routerLink="/contact"
+      routerLinkActive="active"
+      class="mobile-nav-link"
+      (click)="closeMobileMenu()"
+    >
+      <span class="nav-icon">📧</span>
+      <span class="nav-text">Contato</span>
+    </a>
+  </div>
+</header>
