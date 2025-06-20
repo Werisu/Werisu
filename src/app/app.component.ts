@@ -12,7 +12,7 @@ import { HeaderComponent } from './components/header/header.component';
   styleUrls: ['./app.scss'],
 })
 export class AppComponent {
-  isDarkTheme = false;
+  isDarkTheme = true;
 
   toggleTheme() {
     this.isDarkTheme = !this.isDarkTheme;

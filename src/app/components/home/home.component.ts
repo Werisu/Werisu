@@ -14,8 +14,8 @@ import { RouterModule } from '@angular/router';
           <div class="hero-text">
             <h1 class="hero-title">
               <span class="title-line">Olá, eu sou</span>
-              <span class="title-highlight">Desenvolvedor</span>
-              <span class="title-line">Front-end Angular</span>
+              <span class="title-highlight">Wellysson</span>
+              <span class="title-line">Desenvolvedor Front-end Angular</span>
             </h1>
             <p class="hero-subtitle">
               Especialista em criar interfaces modernas e experiências digitais

@@ -496,17 +496,6 @@ export class ProjectsComponent {
 
   projects: Project[] = [
     {
-      id: 1,
-      title: 'Werisu',
-      description:
-        'Portfólio pessoal moderno desenvolvido com Angular, apresentando projetos e habilidades de desenvolvimento front-end.',
-      image: '🎨',
-      technologies: ['Angular', 'TypeScript', 'SCSS', 'Responsive Design'],
-      category: 'Frontend',
-      link: 'https://github.com/Werisu/Werisu',
-      github: 'https://github.com/Werisu/Werisu',
-    },
-    {
       id: 2,
       title: 'Shared Cart Crew',
       description:

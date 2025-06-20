@@ -310,7 +310,7 @@ import { RouterModule } from '@angular/router';
 })
 export class HeaderComponent {
   @Output() themeToggle = new EventEmitter<void>();
-  isDarkTheme = false;
+  isDarkTheme = true;
   isMobileMenuOpen = false;
 
   toggleTheme() {
