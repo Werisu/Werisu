@@ -200,7 +200,7 @@ Contribuições são sempre bem-vindas! Sinta-se à vontade para:
 
 ## 📞 Contato
 
-- **Email**: contato@portfolio.com
+- **Email**: wellysson35@gmail.com
 - **LinkedIn**: [Wellysson Rocha](https://www.linkedin.com/in/wellyssonrocha-front-end/)
 
 ---
