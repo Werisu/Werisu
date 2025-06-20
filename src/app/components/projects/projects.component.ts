@@ -99,24 +99,34 @@ interface Project {
         <div class="featured-project">
           <div class="featured-content">
             <div class="featured-text">
-              <h3 class="featured-title">Dashboard Angular</h3>
+              <h3 class="featured-title">Clinic Management Pro</h3>
               <p class="featured-description">
-                Um dashboard administrativo completo desenvolvido com Angular e
-                Angular Material. Inclui gráficos interativos, gestão de
-                usuários, relatórios em tempo real e interface responsiva.
+                Sistema completo de gestão clínica desenvolvido com Angular e
+                TypeScript. Inclui agendamento de consultas, prontuários
+                eletrônicos, controle financeiro, gestão de pacientes e
+                relatórios detalhados. Interface moderna e responsiva com foco
+                na experiência do usuário e eficiência operacional.
               </p>
               <div class="featured-tech">
                 <span class="tech-tag">Angular</span>
                 <span class="tech-tag">TypeScript</span>
-                <span class="tech-tag">Angular Material</span>
-                <span class="tech-tag">SCSS</span>
+                <span class="tech-tag">Healthcare</span>
+                <span class="tech-tag">Management</span>
               </div>
               <div class="featured-links">
-                <a href="#" class="btn btn-primary">
+                <a
+                  href="https://github.com/Werisu/clinic-management-pro"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
                   <span class="btn-icon">🚀</span>
                   Ver Projeto
                 </a>
-                <a href="#" class="btn btn-secondary">
+                <a
+                  href="https://github.com/Werisu/clinic-management-pro"
+                  target="_blank"
+                  class="btn btn-secondary"
+                >
                   <span class="btn-icon">🐙</span>
                   Ver Código
                 </a>
@@ -124,7 +134,7 @@ interface Project {
             </div>
             <div class="featured-visual">
               <div class="featured-image">
-                <div class="image-placeholder large">📊</div>
+                <div class="image-placeholder large">🏥</div>
               </div>
             </div>
           </div>
@@ -475,73 +485,261 @@ interface Project {
 })
 export class ProjectsComponent {
   selectedCategory = 'Todos';
-  categories = ['Todos', 'Frontend', 'Backend', 'Full Stack', 'Mobile'];
+  categories = [
+    'Todos',
+    'Frontend',
+    'Full Stack',
+    'Mobile',
+    'PWA',
+    'E-commerce',
+  ];
 
   projects: Project[] = [
     {
       id: 1,
-      title: 'Dashboard Angular',
+      title: 'Werisu',
       description:
-        'Dashboard administrativo completo desenvolvido com Angular e Angular Material.',
-      image: '📊',
-      technologies: ['Angular', 'TypeScript', 'Angular Material', 'SCSS'],
+        'Portfólio pessoal moderno desenvolvido com Angular, apresentando projetos e habilidades de desenvolvimento front-end.',
+      image: '🎨',
+      technologies: ['Angular', 'TypeScript', 'SCSS', 'Responsive Design'],
       category: 'Frontend',
-      link: '#',
-      github: '#',
+      link: 'https://github.com/Werisu/Werisu',
+      github: 'https://github.com/Werisu/Werisu',
     },
     {
       id: 2,
-      title: 'E-commerce Angular',
+      title: 'Shared Cart Crew',
       description:
-        'Plataforma de e-commerce com carrinho de compras e gestão de produtos.',
+        'Sistema de carrinho compartilhado para compras colaborativas com funcionalidades de sincronização em tempo real.',
       image: '🛒',
-      technologies: ['Angular', 'TypeScript', 'RxJS', 'SCSS'],
+      technologies: ['Angular', 'TypeScript', 'Real-time', 'Collaborative'],
       category: 'Frontend',
-      link: '#',
-      github: '#',
+      link: 'https://github.com/Werisu/shared-cart-crew',
+      github: 'https://github.com/Werisu/shared-cart-crew',
     },
     {
       id: 3,
-      title: 'App de Tarefas',
+      title: 'Quiz Answer Checker Pro',
       description:
-        'Aplicação de gerenciamento de tarefas com drag & drop e filtros.',
+        'Sistema avançado de verificação de respostas para questionários com análise automática e feedback inteligente.',
       image: '✅',
-      technologies: ['Angular', 'TypeScript', 'LocalStorage', 'SCSS'],
+      technologies: ['Angular', 'TypeScript', 'Quiz System', 'AI Analysis'],
       category: 'Frontend',
-      link: '#',
-      github: '#',
+      link: 'https://github.com/Werisu/quiz-answer-checker-pro',
+      github: 'https://github.com/Werisu/quiz-answer-checker-pro',
     },
     {
       id: 4,
-      title: 'Portfolio Interativo',
+      title: 'Clinic Management Pro',
       description:
-        'Portfolio pessoal com animações e design moderno usando Angular.',
-      image: '🎨',
-      technologies: ['Angular', 'SCSS', 'TypeScript', 'GSAP'],
-      category: 'Frontend',
-      link: '#',
-      github: '#',
+        'Sistema completo de gestão clínica com agendamento, prontuários eletrônicos e controle financeiro.',
+      image: '🏥',
+      technologies: ['Angular', 'TypeScript', 'Healthcare', 'Management'],
+      category: 'Full Stack',
+      link: 'https://github.com/Werisu/clinic-management-pro',
+      github: 'https://github.com/Werisu/clinic-management-pro',
     },
     {
       id: 5,
-      title: 'Sistema de Chat',
-      description: 'Interface de chat em tempo real com WebSockets e Angular.',
-      image: '💬',
-      technologies: ['Angular', 'Socket.io', 'TypeScript', 'SCSS'],
+      title: 'Pontuei',
+      description:
+        'Sistema de pontuação e gamificação para engajamento de usuários com rankings e recompensas.',
+      image: '🏆',
+      technologies: ['Angular', 'TypeScript', 'Gamification', 'Scoring'],
       category: 'Frontend',
-      link: '#',
-      github: '#',
+      link: 'https://github.com/Werisu/pontuei',
+      github: 'https://github.com/Werisu/pontuei',
     },
     {
       id: 6,
-      title: 'Formulários Dinâmicos',
+      title: 'Sorteia AE',
       description:
-        'Sistema de formulários dinâmicos com validação e Angular Reactive Forms.',
-      image: '📝',
-      technologies: ['Angular', 'Reactive Forms', 'TypeScript', 'SCSS'],
+        'Aplicação de sorteios e rifas com interface intuitiva e sistema de geração de números aleatórios.',
+      image: '🎲',
+      technologies: ['Angular', 'TypeScript', 'Random Generation', 'UI/UX'],
       category: 'Frontend',
-      link: '#',
-      github: '#',
+      link: 'https://github.com/Werisu/sorteia-ae',
+      github: 'https://github.com/Werisu/sorteia-ae',
+    },
+    {
+      id: 7,
+      title: 'Study Scheduler',
+      description:
+        'Organizador de estudos com cronograma inteligente, lembretes e acompanhamento de progresso.',
+      image: '📚',
+      technologies: ['Angular', 'TypeScript', 'Scheduling', 'Productivity'],
+      category: 'Frontend',
+      link: 'https://github.com/Werisu/study-scheduler',
+      github: 'https://github.com/Werisu/study-scheduler',
+    },
+    {
+      id: 8,
+      title: 'Friends Nest',
+      description:
+        'Rede social para amigos com funcionalidades de chat, compartilhamento e organização de eventos.',
+      image: '👥',
+      technologies: ['Angular', 'TypeScript', 'Social Network', 'Real-time'],
+      category: 'Full Stack',
+      link: 'https://github.com/Werisu/friends-nest',
+      github: 'https://github.com/Werisu/friends-nest',
+    },
+    {
+      id: 9,
+      title: 'Lista Espera Agenda',
+      description:
+        'Sistema de lista de espera para agendamentos com notificações e gestão de filas.',
+      image: '⏰',
+      technologies: [
+        'Angular',
+        'TypeScript',
+        'Queue Management',
+        'Notifications',
+      ],
+      category: 'Frontend',
+      link: 'https://github.com/Werisu/lista-espera-agenda',
+      github: 'https://github.com/Werisu/lista-espera-agenda',
+    },
+    {
+      id: 10,
+      title: 'E-commerce Map',
+      description:
+        'Plataforma de e-commerce com integração de mapas para localização de produtos e entregas.',
+      image: '🗺️',
+      technologies: ['Angular', 'TypeScript', 'E-commerce', 'Maps API'],
+      category: 'E-commerce',
+      link: 'https://github.com/Werisu/ecommerce-map-2',
+      github: 'https://github.com/Werisu/ecommerce-map-2',
+    },
+    {
+      id: 11,
+      title: 'Training Progress',
+      description:
+        'Sistema de acompanhamento de progresso em treinamentos com métricas e relatórios detalhados.',
+      image: '📈',
+      technologies: ['Angular', 'TypeScript', 'Analytics', 'Progress Tracking'],
+      category: 'Frontend',
+      link: 'https://github.com/Werisu/training-progress',
+      github: 'https://github.com/Werisu/training-progress',
+    },
+    {
+      id: 12,
+      title: 'Nannynha',
+      description:
+        'Aplicação para babás e cuidadores com agendamento de serviços e gestão de clientes.',
+      image: '👶',
+      technologies: [
+        'Angular',
+        'TypeScript',
+        'Service Management',
+        'Scheduling',
+      ],
+      category: 'Full Stack',
+      link: 'https://github.com/Werisu/nannynha',
+      github: 'https://github.com/Werisu/nannynha',
+    },
+    {
+      id: 13,
+      title: 'Fullstack App',
+      description:
+        'Aplicação full-stack completa demonstrando integração entre frontend e backend.',
+      image: '⚡',
+      technologies: ['Angular', 'TypeScript', 'Full Stack', 'API Integration'],
+      category: 'Full Stack',
+      link: 'https://github.com/Werisu/fullstack-app',
+      github: 'https://github.com/Werisu/fullstack-app',
+    },
+    {
+      id: 14,
+      title: 'Workshop Angular',
+      description:
+        'Projeto educacional para workshops de Angular com exemplos práticos e tutoriais.',
+      image: '🎓',
+      technologies: ['Angular', 'TypeScript', 'Education', 'Workshop'],
+      category: 'Frontend',
+      link: 'https://github.com/Werisu/workshop-angular',
+      github: 'https://github.com/Werisu/workshop-angular',
+    },
+    {
+      id: 15,
+      title: 'Clínica Veterinária',
+      description:
+        'Sistema de gestão para clínicas veterinárias com prontuários e agendamento de consultas.',
+      image: '🐾',
+      technologies: ['Angular', 'TypeScript', 'Veterinary', 'Healthcare'],
+      category: 'Full Stack',
+      link: 'https://github.com/Werisu/clinica-veterinaria-2',
+      github: 'https://github.com/Werisu/clinica-veterinaria-2',
+    },
+    {
+      id: 16,
+      title: 'PWA App',
+      description:
+        'Progressive Web App com funcionalidades offline e experiência mobile-first.',
+      image: '📱',
+      technologies: ['PWA', 'JavaScript', 'Offline', 'Mobile First'],
+      category: 'PWA',
+      link: 'https://github.com/Werisu/pwa',
+      github: 'https://github.com/Werisu/pwa',
+    },
+    {
+      id: 17,
+      title: 'E-commerce WW',
+      description:
+        'Fork do projeto ecommerce de Well e Will (WW) com melhorias e customizações.',
+      image: '🛍️',
+      technologies: ['Angular', 'TypeScript', 'E-commerce', 'Fork'],
+      category: 'E-commerce',
+      link: 'https://github.com/Werisu/ecommerce-ww',
+      github: 'https://github.com/Werisu/ecommerce-ww',
+    },
+    {
+      id: 18,
+      title: 'Guardião',
+      description:
+        'Sistema de monitoramento e segurança com funcionalidades de vigilância e alertas.',
+      image: '🛡️',
+      technologies: ['Angular', 'TypeScript', 'Security', 'Monitoring'],
+      category: 'Full Stack',
+      link: 'https://github.com/Werisu/guardiao',
+      github: 'https://github.com/Werisu/guardiao',
+    },
+    {
+      id: 19,
+      title: 'Treinamento Ergon',
+      description:
+        'Sistema de treinamento corporativo desenvolvido para a ERGON SISTEMAS.',
+      image: '🏢',
+      technologies: [
+        'Angular',
+        'TypeScript',
+        'Corporate Training',
+        'Enterprise',
+      ],
+      category: 'Frontend',
+      link: 'https://github.com/Werisu/treinamento-ergon',
+      github: 'https://github.com/Werisu/treinamento-ergon',
+    },
+    {
+      id: 20,
+      title: 'Store Management',
+      description:
+        'Sistema de gestão de lojas com controle de estoque, vendas e relatórios.',
+      image: '🏪',
+      technologies: ['Angular', 'TypeScript', 'Store Management', 'Inventory'],
+      category: 'Full Stack',
+      link: 'https://github.com/Werisu/store',
+      github: 'https://github.com/Werisu/store',
+    },
+    {
+      id: 21,
+      title: 'Customer Registration',
+      description:
+        'Sistema de cadastro de clientes desenvolvido para demonstrar habilidades no processo seletivo da Maxicon.',
+      image: '👤',
+      technologies: ['Angular', 'TypeScript', 'CRUD', 'Customer Management'],
+      category: 'Frontend',
+      link: 'https://github.com/Werisu/customer-registration',
+      github: 'https://github.com/Werisu/customer-registration',
     },
   ];
 
