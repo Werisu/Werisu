@@ -21,27 +21,40 @@ export class ContactComponent {
 
   faqs = [
     {
-      question: 'Quais tipos de projetos você aceita?',
+      question:
+        'Você trabalha apenas com Angular ou outras tecnologias também?',
       answer:
-        'Aceito projetos de desenvolvimento web, aplicações móveis, APIs e sistemas personalizados. Estou sempre aberto a novos desafios!',
+        'Sou especialista em Angular com 3+ anos de experiência, mas também trabalho com TypeScript, SCSS, RxJS e outras tecnologias do ecossistema front-end. Meu foco principal é Angular, mas estou sempre aprendendo novas tecnologias.',
       isOpen: false,
     },
     {
-      question: 'Qual é o prazo médio de entrega?',
+      question: 'Você aceita projetos remotos?',
       answer:
-        'O prazo varia de acordo com a complexidade do projeto. Projetos pequenos podem levar 1-2 semanas, enquanto projetos maiores podem levar 1-3 meses.',
+        'Sim! Trabalho 100% remotamente e tenho experiência com equipes distribuídas. Estou disponível para projetos de qualquer lugar do Brasil e também internacionais.',
       isOpen: false,
     },
     {
-      question: 'Você trabalha com equipes remotas?',
+      question: 'Qual é o seu processo de desenvolvimento?',
       answer:
-        'Sim! Tenho experiência trabalhando com equipes distribuídas e estou confortável com comunicação remota e ferramentas de colaboração.',
+        'Sigo uma abordagem ágil com planejamento detalhado, desenvolvimento iterativo, testes contínuos e entregas incrementais. Sempre mantenho o cliente informado sobre o progresso.',
       isOpen: false,
     },
     {
-      question: 'Oferece suporte pós-entrega?',
+      question: 'Você oferece manutenção e suporte após o projeto?',
       answer:
-        'Sim, ofereço suporte técnico e manutenção após a entrega do projeto. Podemos discutir os termos de suporte durante o planejamento.',
+        'Sim, ofereço suporte técnico, manutenção e atualizações após a entrega. Podemos discutir um plano de suporte personalizado de acordo com suas necessidades.',
+      isOpen: false,
+    },
+    {
+      question: 'Quanto tempo leva para desenvolver um projeto típico?',
+      answer:
+        'O prazo varia conforme a complexidade. Projetos pequenos (1-2 semanas), médios (1-2 meses) e grandes (3-6 meses). Sempre forneço cronogramas detalhados no início.',
+      isOpen: false,
+    },
+    {
+      question: 'Você trabalha com APIs e integrações?',
+      answer:
+        'Sim! Tenho experiência com integração de APIs REST, autenticação, gerenciamento de estado e comunicação com backends. Trabalho com serviços externos e APIs de terceiros.',
       isOpen: false,
     },
   ];

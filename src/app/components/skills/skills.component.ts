@@ -23,54 +23,75 @@ export class SkillsComponent implements OnInit {
       description: 'Desenvolvimento de interfaces modernas e responsivas',
     },
     {
-      name: 'Backend',
+      name: 'Frameworks',
       icon: '⚙️',
-      description: 'Desenvolvimento de APIs e sistemas robustos',
+      description: 'Frameworks e bibliotecas JavaScript',
     },
     {
-      name: 'Mobile',
-      icon: '📱',
-      description: 'Desenvolvimento de aplicativos móveis',
+      name: 'Ferramentas',
+      icon: '🛠️',
+      description: 'Ferramentas de desenvolvimento e versionamento',
     },
     {
-      name: 'DevOps',
-      icon: '🚀',
-      description: 'Deploy, CI/CD e infraestrutura',
+      name: 'Design',
+      icon: '🎨',
+      description: 'Design de interfaces e UX/UI',
     },
   ];
 
   skills: Skill[] = [
     { name: 'Angular', level: 95, icon: '🅰️', category: 'Frontend' },
-    { name: 'TypeScript', level: 92, icon: '📘', category: 'Frontend' },
-    { name: 'SCSS/SASS', level: 90, icon: '🎨', category: 'Frontend' },
-    { name: 'HTML5', level: 88, icon: '🌐', category: 'Frontend' },
-    { name: 'CSS3', level: 85, icon: '💅', category: 'Frontend' },
-    { name: 'JavaScript', level: 80, icon: '⚡', category: 'Frontend' },
-    { name: 'RxJS', level: 75, icon: '🔄', category: 'Frontend' },
-    { name: 'Angular Material', level: 70, icon: '🧩', category: 'Frontend' },
+    { name: 'TypeScript', level: 90, icon: '📘', category: 'Frontend' },
+    { name: 'SCSS/SASS', level: 88, icon: '🎨', category: 'Frontend' },
+    { name: 'HTML5', level: 85, icon: '🌐', category: 'Frontend' },
+    { name: 'CSS3', level: 82, icon: '💅', category: 'Frontend' },
+    { name: 'JavaScript (ES6+)', level: 80, icon: '⚡', category: 'Frontend' },
+    { name: 'RxJS', level: 75, icon: '🔄', category: 'Frameworks' },
+    { name: 'Angular Material', level: 70, icon: '🧩', category: 'Frameworks' },
+    { name: 'Bootstrap', level: 65, icon: '🎨', category: 'Frameworks' },
+    { name: 'Tailwind CSS', level: 60, icon: '🎨', category: 'Frameworks' },
   ];
 
   tools = [
-    { name: 'Git', icon: '📚', description: 'Controle de versão' },
-    { name: 'VS Code', icon: '💻', description: 'Editor de código' },
+    {
+      name: 'Git & GitHub',
+      icon: '📚',
+      description: 'Controle de versão e colaboração',
+    },
+    { name: 'VS Code', icon: '💻', description: 'Editor de código principal' },
     {
       name: 'Angular CLI',
       icon: '🛠️',
-      description: 'Ferramenta de linha de comando',
+      description: 'Ferramenta de linha de comando Angular',
     },
     {
       name: 'Chrome DevTools',
       icon: '🔍',
-      description: 'Debugging e performance',
+      description: 'Debugging e análise de performance',
     },
-    { name: 'Figma', icon: '🎨', description: 'Design de interfaces' },
-    { name: 'Postman', icon: '📮', description: 'Teste de APIs' },
+    {
+      name: 'Figma',
+      icon: '🎨',
+      description: 'Design de interfaces e prototipagem',
+    },
+    {
+      name: 'Postman',
+      icon: '📮',
+      description: 'Teste e documentação de APIs',
+    },
+    {
+      name: 'npm/yarn',
+      icon: '📦',
+      description: 'Gerenciamento de dependências',
+    },
+    { name: 'Webpack', icon: '📦', description: 'Bundling e otimização' },
   ];
 
   learningList = [
-    { name: 'Angular 17+', icon: '🅰️', progress: 85 },
-    { name: 'Tailwind CSS', icon: '🎨', progress: 60 },
-    { name: 'Storybook', icon: '📚', progress: 45 },
+    { name: 'Angular 17+', icon: '🅰️', progress: 90 },
+    { name: 'Storybook', icon: '📚', progress: 50 },
+    { name: 'Jest', icon: '🧪', progress: 40 },
+    { name: 'Cypress', icon: '🔍', progress: 35 },
   ];
 
   ngOnInit() {
