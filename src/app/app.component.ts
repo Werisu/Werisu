@@ -23,6 +23,7 @@ import { HeaderComponent } from './components/header/header.component';
         min-height: 100vh;
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         transition: all 0.3s ease;
+        color: white;
       }
 
       .app-container.dark-theme {
@@ -37,6 +38,7 @@ import { HeaderComponent } from './components/header/header.component';
       .main-content {
         min-height: calc(100vh - 140px);
         padding: 20px;
+        color: white;
       }
 
       @media (max-width: 768px) {
