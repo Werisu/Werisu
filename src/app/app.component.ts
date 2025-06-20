@@ -9,37 +9,7 @@ import { HeaderComponent } from './components/header/header.component';
   standalone: true,
   imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent],
   templateUrl: './app.html',
-  styles: [
-    `
-      .app-container {
-        min-height: 100vh;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        transition: all 0.3s ease;
-        color: white;
-      }
-
-      .app-container.dark-theme {
-        background: linear-gradient(
-          135deg,
-          #1a1a2e 0%,
-          #16213e 50%,
-          #0f3460 100%
-        );
-      }
-
-      .main-content {
-        min-height: calc(100vh - 140px);
-        padding: 20px;
-        color: white;
-      }
-
-      @media (max-width: 768px) {
-        .main-content {
-          padding: 10px;
-        }
-      }
-    `,
-  ],
+  styleUrls: ['./app.scss'],
 })
 export class AppComponent {
   isDarkTheme = false;
