@@ -162,6 +162,9 @@
   transition: all 0.3s ease;
   backdrop-filter: blur(10px);
 }
+.form-input > option {
+  color: black;
+}
 
 .form-input::placeholder,
 .form-textarea::placeholder {
