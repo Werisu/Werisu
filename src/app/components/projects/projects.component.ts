@@ -34,6 +34,17 @@ export class ProjectsComponent {
   projects: Project[] = [
     {
       id: 1,
+      title: 'Portal ASCEPA',
+      description:
+        'Portal Web da Associação de e para Cegos do Pará - Projeto voluntário desenvolvido em parceria com TechExperts.Pro. Plataforma abrangente para membros, associados e visitantes, focando em acessibilidade e inclusão digital. Contribuição voluntária para melhorar a presença online e experiência do usuário da ONG.',
+      image: '♿',
+      technologies: ['Angular', 'TypeScript', 'Acessibilidade', 'Voluntariado'],
+      category: 'Full Stack',
+      link: 'https://portal-ascepa.vercel.app',
+      github: 'https://github.com/techexpertspro/portal-ascepa',
+    },
+    {
+      id: 2,
       title: 'Clinic Management Pro',
       description:
         'Sistema completo de gestão clínica desenvolvido com Angular e TypeScript. Inclui agendamento de consultas, prontuários eletrônicos, controle financeiro, gestão de pacientes e relatórios detalhados. Interface moderna e responsiva com foco na experiência do usuário.',
@@ -44,7 +55,7 @@ export class ProjectsComponent {
       github: 'https://github.com/Werisu/clinic-management-pro',
     },
     {
-      id: 2,
+      id: 3,
       title: 'Shared Cart Crew',
       description:
         'Sistema inovador de carrinho compartilhado para compras colaborativas. Permite que múltiplos usuários contribuam para uma compra coletiva com sincronização em tempo real, divisão de custos e histórico de transações.',
@@ -55,7 +66,7 @@ export class ProjectsComponent {
       github: 'https://github.com/Werisu/shared-cart-crew',
     },
     {
-      id: 3,
+      id: 4,
       title: 'Quiz Answer Checker Pro',
       description:
         'Sistema avançado de verificação de respostas para questionários educacionais. Inclui análise automática de respostas, feedback inteligente, relatórios de performance e dashboard para professores.',
@@ -66,7 +77,7 @@ export class ProjectsComponent {
       github: 'https://github.com/Werisu/quiz-answer-checker-pro',
     },
     {
-      id: 4,
+      id: 5,
       title: 'Pontuei',
       description:
         'Plataforma de gamificação e sistema de pontuação para engajamento de usuários. Implementa rankings, recompensas, badges e sistema de conquistas para aumentar a interação e retenção.',
@@ -82,7 +93,7 @@ export class ProjectsComponent {
       github: 'https://github.com/Werisu/pontuei',
     },
     {
-      id: 5,
+      id: 6,
       title: 'Sorteia AE',
       description:
         'Aplicação de sorteios e rifas com interface intuitiva e moderna. Sistema de geração de números aleatórios, gestão de participantes, histórico de sorteios e notificações automáticas.',
@@ -93,7 +104,7 @@ export class ProjectsComponent {
       github: 'https://github.com/Werisu/sorteia-ae',
     },
     {
-      id: 6,
+      id: 7,
       title: 'Study Scheduler',
       description:
         'Organizador inteligente de estudos com cronograma personalizado, lembretes automáticos, acompanhamento de progresso e relatórios de produtividade. Ideal para estudantes e profissionais.',
@@ -104,7 +115,7 @@ export class ProjectsComponent {
       github: 'https://github.com/Werisu/study-scheduler',
     },
     {
-      id: 7,
+      id: 8,
       title: 'Friends Nest',
       description:
         'Rede social para amigos com funcionalidades de chat em tempo real, compartilhamento de momentos, organização de eventos e sistema de notificações. Interface moderna e responsiva.',
@@ -115,7 +126,7 @@ export class ProjectsComponent {
       github: 'https://github.com/Werisu/friends-nest',
     },
     {
-      id: 8,
+      id: 9,
       title: 'Lista Espera Agenda',
       description:
         'Sistema inteligente de lista de espera para agendamentos com notificações automáticas, gestão de filas, priorização de atendimentos e dashboard de controle em tempo real.',
@@ -131,7 +142,7 @@ export class ProjectsComponent {
       github: 'https://github.com/Werisu/lista-espera-agenda',
     },
     {
-      id: 9,
+      id: 10,
       title: 'E-commerce Map',
       description:
         'Plataforma de e-commerce inovadora com integração de mapas para localização de produtos, cálculo de frete, rastreamento de entregas e experiência de compra otimizada.',
@@ -142,7 +153,7 @@ export class ProjectsComponent {
       github: 'https://github.com/Werisu/ecommerce-map-2',
     },
     {
-      id: 10,
+      id: 11,
       title: 'Training Progress',
       description:
         'Sistema completo de acompanhamento de progresso em treinamentos corporativos. Inclui métricas detalhadas, relatórios personalizados, certificados automáticos e dashboard de gestão.',
@@ -153,7 +164,7 @@ export class ProjectsComponent {
       github: 'https://github.com/Werisu/training-progress',
     },
     {
-      id: 11,
+      id: 12,
       title: 'Nannynha',
       description:
         'Plataforma completa para babás e cuidadores com agendamento de serviços, gestão de clientes, sistema de pagamentos, avaliações e comunicação em tempo real.',
@@ -169,7 +180,7 @@ export class ProjectsComponent {
       github: 'https://github.com/Werisu/nannynha',
     },
     {
-      id: 12,
+      id: 13,
       title: 'Fullstack App',
       description:
         'Aplicação full-stack demonstrando integração completa entre frontend Angular e backend. Inclui autenticação, CRUD operations, upload de arquivos e API REST.',
@@ -180,7 +191,7 @@ export class ProjectsComponent {
       github: 'https://github.com/Werisu/fullstack-app',
     },
     {
-      id: 13,
+      id: 14,
       title: 'Workshop Angular',
       description:
         'Projeto educacional para workshops de Angular com exemplos práticos, tutoriais interativos, exercícios hands-on e documentação completa para aprendizado.',
@@ -191,7 +202,7 @@ export class ProjectsComponent {
       github: 'https://github.com/Werisu/workshop-angular',
     },
     {
-      id: 14,
+      id: 15,
       title: 'Clínica Veterinária',
       description:
         'Sistema especializado de gestão para clínicas veterinárias com prontuários eletrônicos, agendamento de consultas, controle de vacinas, histórico de tratamentos e relatórios médicos.',
