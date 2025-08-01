@@ -66,21 +66,42 @@ export class ContactComponent {
 
     this.isSubmitting = true;
 
-    // Simular envio do formulário
-    setTimeout(() => {
-      console.log('Formulário enviado:', this.formData);
-      alert('Mensagem enviada com sucesso! Entrarei em contato em breve.');
+    // Formatar mensagem para WhatsApp
+    const message = this.formatWhatsAppMessage();
 
-      // Resetar formulário
-      this.formData = {
-        name: '',
-        email: '',
-        subject: '',
-        message: '',
-      };
+    // URL do WhatsApp com a mensagem formatada
+    const whatsappUrl = `https://api.whatsapp.com/send/?phone=5563992304647&text=${encodeURIComponent(
+      message
+    )}&type=phone_number&app_absent=0`;
 
-      this.isSubmitting = false;
-    }, 2000);
+    // Abrir WhatsApp em nova aba
+    window.open(whatsappUrl, '_blank');
+
+    // Resetar formulário
+    this.formData = {
+      name: '',
+      email: '',
+      subject: '',
+      message: '',
+    };
+
+    this.isSubmitting = false;
+  }
+
+  private formatWhatsAppMessage(): string {
+    const { name, email, subject, message } = this.formData;
+
+    return `Olá! Recebi uma mensagem através do seu site:
+
+*Nome:* ${name}
+*Email:* ${email}
+*Assunto:* ${subject}
+
+*Mensagem:*
+${message}
+
+---
+Mensagem enviada através do formulário de contato do site.`;
   }
 
   toggleFaq(index: number) {

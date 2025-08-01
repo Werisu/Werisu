@@ -94,7 +94,7 @@
 
       <!-- Contact Form -->
       <div class="contact-form">
-        <h2 class="section-title">Envie uma Mensagem</h2>
+        <h2 class="section-title">Envie uma Mensagem via WhatsApp</h2>
         <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
           <div class="form-group">
             <label for="name">Nome</label>
@@ -156,9 +156,9 @@
           </div>
 
           <button type="submit" class="submit-btn" [disabled]="isSubmitting">
-            <span class="btn-icon" *ngIf="!isSubmitting">📤</span>
+            <span class="btn-icon" *ngIf="!isSubmitting">💬</span>
             <span class="btn-icon" *ngIf="isSubmitting">⏳</span>
-            {{ isSubmitting ? 'Enviando...' : 'Enviar Mensagem' }}
+            {{ isSubmitting ? 'Abrindo WhatsApp...' : 'Enviar via WhatsApp' }}
           </button>
         </form>
       </div>
